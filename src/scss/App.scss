@@ -7,6 +7,36 @@
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    overflow:hidden;
+    .container {
+            max-width: 90vw;
+            height: 100vh;
+            margin: 0 auto;
+            border: 2px solid rebeccapurple;
+        }
+        .app-header{
+            margin-top: 30px;
+            img {
+                    max-width: 200px;
+                    height: auto;
+                    display: block;
+                }
+        }
+        .main-content{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+
+            img{
+                display: block;
+                max-width: 50%;
+                height: auto;
+            }
+            .content{
+                max-width: 50%;
+            }
+        }
+        
 
 }
 
